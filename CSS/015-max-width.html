@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>max-width/positioning</title>
+
+    <style>
+        .div1{
+            width: 500px;
+            border: 3px solid black;
+            height: 30px;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        .div2{
+            max-width: 500px;
+            border: 3px solid rgb(172, 19, 19);
+            height: 30px;
+            margin: auto;
+        }
+
+        .static{
+            border: 3px solid black;
+            height: 50px;
+            position: static;
+        }
+
+        .relative{
+            border: 3px solid black;
+            height: 50px;
+            position: relative;
+            left: 80px;
+            top: 40px;
+        }
+
+        .fixed{
+            border: 3px solid blue;
+            height: 50px;
+            position: relative;
+            bottom: 0px;
+            right: 0px;
+            width: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="div1"></div>
+
+    <div class="div2"></div>
+    <br>
+
+    <div class="static"></div>
+    <div class="relative"></div>
+    <div class="fixed"></div>
+
+    
+
+
+    
+</body>
+</html>
